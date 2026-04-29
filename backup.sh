@@ -6,7 +6,7 @@ BACKUP_DIR="/home/sebastian/backups/minecraft"
 DATE=$(date +"%Y-%m-%d_%H-%M")
 BACKUP_FILE="$BACKUP_DIR/minecraft_backup_$DATE.tar.gz"
 
-WEBHOOK="https://discordapp.com/api/webhooks/1498535266116178092/TSskNNJ_3Z_VqJWkQk_nUBTbYmf7NLT98nw_-LRP4DVVkBDxKKs9hpOxr8wIm_Sb3HD>
+WEBHOOK="your-discordapp"
 
 mkdir -p "$BACKUP_DIR"
 
