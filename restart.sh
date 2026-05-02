@@ -1,7 +1,7 @@
 #!/bin/bash
 
 SESSION="mc"
-WEBHOOK="https://discordapp.com/api/webhooks/1498535266116178092/TSskNNJ_3Z_VqJWkQk_nUBTbYmf7NLT98nw_-LRP4DVVkBDxKKs9hpOxr8wIm_Sb3HDf"
+WEBHOOK="YOUR_DISCORD_WEBHOOK_URL_HERE"
 
 curl -H "Content-Type: application/json" \
 -d '{"content":"⚠️ Minecraft server restarting in 5 minutes!"}' \
