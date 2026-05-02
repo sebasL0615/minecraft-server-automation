@@ -1,23 +1,56 @@
 # Minecraft Server Automation
 
 ## Overview 
-Managed a multiplayer gamer server with automation, monitoring, and backup systems.
+THis project showcases a fully automated Minecraft server running on Linux.
+It includes backup systems, restart scheduling, monitoring, and startup automation.
+
+---
 
 ## Features
-- Automated backups using Bash + cron
-- Scheduled weekly restarts
-- Auto start scripts
-- Discord webhook notifications
+- Daily automated backups (cron)
+- Weekly restart system
 - Safe backup process (save-off / save-all)
+- Smart startup script with error detection
+- Discord webhook notifications
+- Automatic cleanup (old backups removed after 14 days)
+
+---
 
 ## Tech Stack
 - Linux (Ubuntu)
 - Bash Scripting
-- Screen
+- Screen (process management)
 - Cron jobs
 - Discord Webhooks
 
+---
+
+## Scripts
+
+### 'backup.sh'
+- Creates compressed backups
+- Prevents data corruption
+- Sends Discord alerts
+
+### 'restart.sh'
+- Warns players before restart
+- Safely shuts down server
+
+### 'start.sh'
+- Startsserver in screen session
+- Detects startup success/failure
+- Sends Discord notification only on success
+
+---
+
 ## What I Learned
-- Server automation and reliability
-- Debugging mod/server issues
-- Backup and recovery startegies
+- Managing live server environments
+- Automating tasks with Bash + cron
+- Debugging real-world issues (mods, startup failure) 
+- Implementing backup & recovery stratgies
+
+---
+
+### Author
+Sebastian Lopez
+Linux | Cloud | Web Development
