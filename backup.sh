@@ -7,7 +7,7 @@ DATE=$(date +"%Y-%m-%d_%H-%M")
 BACKUP_FILE="$BACKUP_DIR/minecraft_backup_$DATE.tar.gz"
 JAR="fabric-server-mc.1.21.1-loader.0.19.2-launcher.1.1.1.jar"
 
-WEBHOOK="https://discordapp.com/api/webhooks/1498535266116178092/TSskNNJ_3Z_VqJWkQk_nUBTbYmf7NLT98nw_-LRP4DVVkBDxKKs9hpOxr8wIm_Sb3HDf"
+WEBHOOK="YOUR_DISCORD_WEBHOOK_URL_HERE"
 
 mkdir -p "$BACKUP_DIR"
 
